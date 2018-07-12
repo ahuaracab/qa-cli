@@ -9,6 +9,7 @@ from lib.messages import MSG_STARTING, MSG_ENDING
 from lib.messages import MSG_GET_PAYLOAD, MSG_VALIDATE_PAYLOAD
 from lib.messages import MSG_GET_FIELDS_PAYLOAD
 from lib.validates import validate_fields_in_schema
+from lib.config import get_config
 
 def get_fieds_payload():
     return ["code", "message"]
@@ -27,7 +28,9 @@ def main():
 
     logger.info(MSG_STARTING)
     try:
-
+        config = get_config()
+        
+        logger.info(config['app']['name'])
         logger.info(MSG_GET_PAYLOAD)
         payload = get_payload()
 
