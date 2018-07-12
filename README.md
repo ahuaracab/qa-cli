@@ -83,6 +83,12 @@ Ejemplo:
 
 Para agregar la libreria request v2.19.1, debería copiar lo indicado a continuación en el archivo requirements.txt:
 
-  * request==2.19.1
+```console
+  request==2.19.1
+```
 
-* make venv-install-lib
+Luego ejecutar el siguiente comando:
+
+```console
+~/qa-cli$ make venv-install-lib
+```
