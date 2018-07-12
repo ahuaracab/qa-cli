@@ -1,0 +1,7 @@
+[2018-07-12 19:53:21,559] INFO - Iniciando qa-cli
+[2018-07-12 19:53:21,560] INFO - QA Command Line -- Tools
+[2018-07-12 19:53:21,560] INFO - Obtener Payload
+[2018-07-12 19:53:21,560] INFO - Obtener campos del payload
+[2018-07-12 19:53:21,561] INFO - Validar Payload
+[2018-07-12 19:53:21,561] ERROR - Campo 'message1' no es existe en el schema
+[2018-07-12 19:53:21,561] INFO - Finalizando qa-cli

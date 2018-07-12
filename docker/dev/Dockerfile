@@ -9,4 +9,4 @@ RUN yum -y update && yum -y install \
 ONBUILD ADD app /app/
 WORKDIR /app
 
-RUN pip-3.6 install pipenv
+# RUN pip-3.6 install pipenv

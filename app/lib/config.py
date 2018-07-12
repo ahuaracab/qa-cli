@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-import yaml
+# import yaml
 
 def get_config():
     config = {
+        "debug": {
+            "postulant": True
+        },
         "author": "QA Team - UND",
         "app":{
             "name": "QA Command Line -- Tools",
