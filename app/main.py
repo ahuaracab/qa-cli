@@ -26,6 +26,9 @@ def get_payload():
     }
     return payload
 
+def prueba():
+    pass
+
 def validate_payload(fields, payload):
     validate_fields_in_schema(fields, payload)
 
@@ -38,6 +41,8 @@ def main():
         logger.info(config['app']['name'])
         logger.info(MSG_GET_PAYLOAD)
         payload = get_payload()
+        #HOLA ESTO SERVIRA PARA MI COMMIT
+        #BUENO ESTO SI ES PARA MI COMMIT
 
         if config['debug']['postulant']:
             logger.info(payload)
